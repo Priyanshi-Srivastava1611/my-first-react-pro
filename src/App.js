@@ -9,6 +9,7 @@ import Form from "./componenst/form";
 import { Product } from "./componenst/Product";
 import Lifecycle from "./componenst/Lifecycle";
 import Fragmentdemo from "./componenst/Fragmentdemo";
+import Memocomp from "./componenst/Memocomp";
 //import Productlist from "./componenst/ProductList";
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Lifecycle/>
       
       <Fragmentdemo/>
+      <Memocomp/>
       <main 
         className="container mt-5">
       </main>
