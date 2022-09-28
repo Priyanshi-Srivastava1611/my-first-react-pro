@@ -18,7 +18,7 @@ function App() {
     <Navbar/>
       <Usergreeting/>
       <Namelist/>
-      <Stylesheet primary={true}/>
+      <Stylesheet primary='false'/>
       <Form/>
       <Product/>
       <Lifecycle/>

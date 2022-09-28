@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-
-export default class Memocomp extends Component {
+ export default class Memocomp extends Component {
 	constructor(props) {
 	  super(props)
 	
