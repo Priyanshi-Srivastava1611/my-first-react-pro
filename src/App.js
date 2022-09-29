@@ -10,11 +10,12 @@ import { Product } from "./componenst/Product";
 import Lifecycle from "./componenst/Lifecycle";
 import Fragmentdemo from "./componenst/Fragmentdemo";
 import Memocomp from "./componenst/Memocomp";
+import Wigets from "./componenst/Wigets";
 //import Productlist from "./componenst/ProductList";
 function App() {
   return (
     <>
-    
+    <Wigets/>
     <Navbar/>
       <Usergreeting/>
       <Namelist/>
