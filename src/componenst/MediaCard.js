@@ -1,6 +1,6 @@
 import * as React from "react";
-import styles from "./index.abd15969.css";
-//import styles from "./MediaCard.module.css";
+//import styles from "./index.abd15969.css";
+import styles from "./MediaCard.module.css";
 
 //import { Grid } from "@mui/material";
 //import SwipeableDrawer from "@mui/material/SwipeableDrawer";

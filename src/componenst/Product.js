@@ -1,5 +1,6 @@
 import React from "react";
-
+//import styles from "./index.abd15969.css";
+import styles from "./MediaCard.module.css";
 export const Product = () => {
   return (
     <div

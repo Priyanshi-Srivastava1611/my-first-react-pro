@@ -1413,36 +1413,47 @@ body:before {
   transition: height 0.6s;
 }
 .active {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
   width: 100%;
   height: 90%;
-  /* background-color:rgb(214, 209, 209); */
-  background-color: white;
-  color: #000;
   transition: height 0.6s;
   z-index: 100;
   border-radius: 10px;
 }
-
-.product_heading {
-  margin: 0px 15%;
-  padding: 4px;
+.revo-embed-close-product-drawer {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.chip {
+  height: 5px;
+  width: 50px;
+  background-color: #bdbdbd;
+  display: inline-block;
+  margin-left: 45%;
 }
 
-.revo_embed_product_description_drawer_data {
+.product-heading {
+  padding: 4px;
+}
+.revo-embed-close-icon {
+  margin: 10px 10px 10px 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.revo-embed-product-description-drawer-data {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-.image_brief_details {
+.image-brief-details {
   display: flex;
   flex-direction: column;
   height: calc(50% - 82px);
   /* align-items: center; */
 }
-.revo_image {
+.revo-embed-product-description-image {
   height: 275px !important;
   width: 275px !important;
   margin: 15px auto !important;
@@ -1450,32 +1461,32 @@ body:before {
   aspect-ratio: 16/9 !important;
   border: 1px solid #7080903b;
 }
-.revo_name_price {
+.revo-embed-image-describe {
   display: flex;
   flex-direction: column;
-  margin-left: 15%;
+  margin-left: 12%;
 }
-.revo_product_description {
+.revo-embed-product-description {
   /* height: calc(50% - 82px); */
   height: calc(12rem - 82px);
   overflow-wrap: break-word;
 
   /* overflow-y: auto; */
-  margin: 0px 15%;
+  margin: 0px 12%;
 }
 
-.revo_embed_image_and_description_parent {
+.revo-embed-image-and-description-parent {
   overflow-y: scroll;
 }
 
-.revo_embed_image_and_description_parent::-webkit-scrollbar {
+.revo-embed-image-and-description-parent::-webkit-scrollbar {
   display: none;
 }
 
-.revo_description {
-  margin: 15px 15%;
+.revo-embed-description-header {
+  margin: 10px 12%;
 }
-.revo_add_button {
+.revo-embed-add-to-cart-button {
   background-color: #000;
   color: #fff;
   height: 45px;
@@ -1485,7 +1496,7 @@ body:before {
   position: absolute;
   bottom: -5px;
 }
-.revo_go_button {
+.revo-embed-go-to-cart-button {
   background-color: #000;
   color: #fff;
   height: 45px;
@@ -1496,7 +1507,6 @@ body:before {
   left: 0;
   display: none;
 }
-
 #snackbar {
   visibility: hidden; /* Hidden by default. Visible on click */
   min-width: 250px; /* Set a default minimum width */

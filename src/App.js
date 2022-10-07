@@ -1,6 +1,6 @@
 import "./App.css";
 import MediaCard from "./componenst/MediaCard";
-import { Product } from "./componenst/Product";
+//import Responsive_d from "./componenst/Responsive_d";
 //import SwipeableEdgeDrawer from "./componenst/Responsive_d";
 function App() {
   return (
@@ -10,18 +10,8 @@ function App() {
         name="Bracelet"
         price="$35.00"
         description="Hey! everyonejjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjh
-        jjjjjjjjjjjjjjjjjjjjj
-        hhhhhhhhhhhhhhhhhhhhhhhhhhh
-        mmmmmmmmmmmmmmmmmmm
-        gggggggggggggggggggggggg
-        hhhfhbhbfbfbhhhhhhhhhhhhhhhhhh
-        
-        
-        vvvvvvvf
-        
-        
-        
-        ffff"
+  jjjjjjjjjjjjjjjjjjjjj
+  hh"
       />
     </>
   );
